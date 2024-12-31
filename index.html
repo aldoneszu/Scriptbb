@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starko Hacker</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 5px solid red; /* إطار أحمر حول الشاشة */
+        }
+        .header-box {
+            width: calc(100% - 40px);
+            max-width: 600px;
+            background-color: blue; /* لون خلفية أزرق */
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0;
+            color: white;
+            font-size: 24px;
+        }
+        .button-container {
+            width: calc(100% - 40px);
+            max-width: 600px;
+            background-color: black;
+            border: 2px solid red; /* إطار أحمر حول الزر */
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button {
+            display: block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: black; /* لون النص داخل الزر أبيض */
+            background-color: white; /* لون خلفية الزر أبيض */
+            border: none; /* إزالة الإطار حول الزر */
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background-color: red;
+            color: white; /* تغيير اللون عند التمرير */
+        }
+    </style>
+</head>
+<body>
+    <div class="header-box">SCRIPT STARKO HACKER</div>
+    <div class="button-container">
+        <button class="button" onclick="location.href='page2.html'">إضافة الثغرة</button>
+    </div>
+</body>
+</html>
